@@ -5,3 +5,5 @@ riderModule.iml
 CSharp/_ReSharper.Caches/
 .idea/
 .vs/
+*.suo
+*.user
