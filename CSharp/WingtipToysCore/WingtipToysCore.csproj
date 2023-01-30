@@ -19,6 +19,7 @@
     <PackageReference Include="CoreForms.Web.Infrastructure" Version="6.0.0-alpha.17" />
     <PackageReference Include="CoreForms.Web.Infrastructure.Roslyn" Version="6.0.0-alpha.17" />
     <PackageReference Include="CoreForms.Web.Infrastructure.MachineConfig" Version="6.0.0-alpha.17" />
+    <PackageReference Include="CoreForms.Web.NetFrameworkBridge" Version="6.0.0-alpha.17" />
     <PackageReference Include="Microsoft.Net.Compilers.Toolset" Version="4.3.1" GeneratePathProperty="true" ExcludeAssets="build" />
 
     <PackageReference Include="Antlr" Version="3.5.0.2" />
