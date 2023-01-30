@@ -5,6 +5,9 @@
     <Nullable>disable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
     <RootNamespace>WingtipToys</RootNamespace>
+
+    <!-- Disable warning for packages requiring .NET Framework -->
+    <NoWarn>$(NoWarn);NU1701</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
