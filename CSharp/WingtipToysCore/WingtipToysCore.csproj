@@ -7,4 +7,39 @@
     <RootNamespace>WingtipToys</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Antlr" Version="3.5.0.2" />
+    <PackageReference Include="AspNet.ScriptManager.bootstrap" Version="3.4.1" />
+    <PackageReference Include="AspNet.ScriptManager.jQuery" Version="3.6.0" />
+    <PackageReference Include="bootstrap" Version="3.4.0" />
+    <PackageReference Include="elmah" Version="1.2.2" />
+    <PackageReference Include="elmah.corelibrary" Version="1.2.2" />
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="jQuery" Version="3.6.0" />
+    <PackageReference Include="Microsoft.AspNet.FriendlyUrls" Version="1.0.2" />
+    <PackageReference Include="Microsoft.AspNet.FriendlyUrls.Core" Version="1.0.2" />
+    <PackageReference Include="Microsoft.AspNet.Identity.Core" Version="2.2.3" />
+    <PackageReference Include="Microsoft.AspNet.Identity.EntityFramework" Version="2.2.3" />
+    <PackageReference Include="Microsoft.AspNet.Identity.Owin" Version="2.2.3" />
+    <PackageReference Include="Microsoft.AspNet.Providers.Core" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNet.ScriptManager.MSAjax" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNet.ScriptManager.WebForms" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNet.Web.Optimization" Version="1.1.3" />
+    <PackageReference Include="Microsoft.AspNet.Web.Optimization.WebForms" Version="1.1.3" />
+    <PackageReference Include="Microsoft.Owin" Version="4.2.2" />
+    <PackageReference Include="Microsoft.Owin.Host.SystemWeb" Version="4.2.2" />
+    <PackageReference Include="Microsoft.Owin.Security" Version="4.2.2" />
+    <PackageReference Include="Microsoft.Owin.Security.Cookies" Version="4.2.2" />
+    <PackageReference Include="Microsoft.Owin.Security.Facebook" Version="4.2.2" />
+    <PackageReference Include="Microsoft.Owin.Security.Google" Version="4.2.2" />
+    <PackageReference Include="Microsoft.Owin.Security.MicrosoftAccount" Version="4.2.2" />
+    <PackageReference Include="Microsoft.Owin.Security.OAuth" Version="4.2.2" />
+    <PackageReference Include="Microsoft.Owin.Security.Twitter" Version="4.2.2" />
+    <PackageReference Include="Microsoft.Web.Infrastructure" Version="2.0.0" />
+    <PackageReference Include="Modernizr" Version="2.8.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="Owin" Version="1.0" />
+    <PackageReference Include="Respond" Version="1.4.2" />
+    <PackageReference Include="WebGrease" Version="1.6.0" />
+  </ItemGroup>
 </Project>
