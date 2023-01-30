@@ -8,6 +8,9 @@
 
     <!-- Disable warning for packages requiring .NET Framework -->
     <NoWarn>$(NoWarn);NU1701</NoWarn>
+
+    <OutputPath>bin</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
