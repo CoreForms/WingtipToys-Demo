@@ -4,6 +4,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
 
+LegacyAspNetInitialization.License =
+    "I hereby confirm that I use CoreForms only for trial purposes and have read and accept the CoreForms Trial License.";
+
 LegacyAspNetInitialization.Initialize(
     new LegacyAspNetInitializationOptions(
         virtualPath: "/",
