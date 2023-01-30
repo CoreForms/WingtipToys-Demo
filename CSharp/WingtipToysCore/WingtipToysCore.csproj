@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net7.0-windows</TargetFramework>
@@ -11,6 +11,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CoreForms.Web" Version="6.0.0-alpha.17" />
+    <PackageReference Include="CoreForms.Web.ApplicationServices" Version="6.0.0-alpha.17" />
+    <PackageReference Include="CoreForms.Web.DynamicData" Version="6.0.0-alpha.17" />
+    <PackageReference Include="CoreForms.Web.Extensions" Version="6.0.0-alpha.17" />
+    <PackageReference Include="CoreForms.Web.Services" Version="6.0.0-alpha.17" />
+    <PackageReference Include="CoreForms.Web.Infrastructure" Version="6.0.0-alpha.17" />
+    <PackageReference Include="CoreForms.Web.Infrastructure.Roslyn" Version="6.0.0-alpha.17" />
+    <PackageReference Include="CoreForms.Web.Infrastructure.MachineConfig" Version="6.0.0-alpha.17" />
+    <PackageReference Include="Microsoft.Net.Compilers.Toolset" Version="4.3.1" GeneratePathProperty="true" ExcludeAssets="build" />
+
     <PackageReference Include="Antlr" Version="3.5.0.2" />
     <PackageReference Include="AspNet.ScriptManager.bootstrap" Version="3.4.1" />
     <PackageReference Include="AspNet.ScriptManager.jQuery" Version="3.6.0" />
