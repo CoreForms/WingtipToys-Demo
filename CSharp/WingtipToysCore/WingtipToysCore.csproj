@@ -1,13 +1,34 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <Nullable>disable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
     <RootNamespace>WingtipToys</RootNamespace>
+
+    <!-- Disable warning for packages requiring .NET Framework -->
+    <NoWarn>$(NoWarn);NU1701</NoWarn>
+
+    <OutputPath>bin</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Update="App.config" Link="Web.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CoreForms.Web" Version="8.0.1" />
+    <PackageReference Include="CoreForms.Web.ApplicationServices" Version="8.0.1" />
+    <PackageReference Include="CoreForms.Web.DynamicData" Version="8.0.1" />
+    <PackageReference Include="CoreForms.Web.Extensions" Version="8.0.1" />
+    <PackageReference Include="CoreForms.Web.Services" Version="8.0.1" />
+    <PackageReference Include="CoreForms.Web.Infrastructure" Version="8.0.1" />
+    <PackageReference Include="CoreForms.Web.Infrastructure.Roslyn" Version="8.0.1" />
+    <PackageReference Include="CoreForms.Web.Infrastructure.MachineConfig" Version="8.0.1" />
+    <PackageReference Include="CoreForms.Web.NetFrameworkBridge" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Net.Compilers.Toolset" Version="4.8.0" GeneratePathProperty="true" ExcludeAssets="build" />
+
     <PackageReference Include="Antlr" Version="3.5.0.2" />
     <PackageReference Include="AspNet.ScriptManager.bootstrap" Version="3.4.1" />
     <PackageReference Include="AspNet.ScriptManager.jQuery" Version="3.6.0" />
