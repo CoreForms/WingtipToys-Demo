@@ -14,6 +14,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Update="App.config" Link="Web.config" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="CoreForms.Web" Version="7.0.0" />
     <PackageReference Include="CoreForms.Web.ApplicationServices" Version="7.0.0" />
     <PackageReference Include="CoreForms.Web.DynamicData" Version="7.0.0" />
