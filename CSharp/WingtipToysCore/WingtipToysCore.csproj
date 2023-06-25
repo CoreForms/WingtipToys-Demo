@@ -19,6 +19,7 @@
     <PackageReference Include="CoreForms.Web.Infrastructure" Version="8.0.1" />
     <PackageReference Include="CoreForms.Web.Infrastructure.Roslyn" Version="8.0.1" />
     <PackageReference Include="CoreForms.Web.Infrastructure.MachineConfig" Version="8.0.1" />
+    <PackageReference Include="CoreForms.Web.NetFrameworkBridge" Version="8.0.1" />
     <PackageReference Include="Microsoft.Net.Compilers.Toolset" Version="4.8.0" GeneratePathProperty="true" ExcludeAssets="build" />
 
     <PackageReference Include="Antlr" Version="3.5.0.2" />
