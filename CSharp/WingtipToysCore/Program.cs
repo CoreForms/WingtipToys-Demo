@@ -36,6 +36,6 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
-app.MapLegacyAspNet("/{**rest}");
+app.MapLegacyAspNet("/{**remainder}");
 
 app.Run();
