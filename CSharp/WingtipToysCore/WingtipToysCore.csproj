@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net7.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <Nullable>disable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
     <RootNamespace>WingtipToys</RootNamespace>
@@ -18,16 +18,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="CoreForms.Web" Version="7.0.0" />
-    <PackageReference Include="CoreForms.Web.ApplicationServices" Version="7.0.0" />
-    <PackageReference Include="CoreForms.Web.DynamicData" Version="7.0.0" />
-    <PackageReference Include="CoreForms.Web.Extensions" Version="7.0.0" />
-    <PackageReference Include="CoreForms.Web.Services" Version="7.0.0" />
-    <PackageReference Include="CoreForms.Web.Infrastructure" Version="7.0.0" />
-    <PackageReference Include="CoreForms.Web.Infrastructure.Roslyn" Version="7.0.0" />
-    <PackageReference Include="CoreForms.Web.Infrastructure.MachineConfig" Version="7.0.0" />
-    <PackageReference Include="CoreForms.Web.NetFrameworkBridge" Version="7.0.0" />
-    <PackageReference Include="Microsoft.Net.Compilers.Toolset" Version="4.3.1" GeneratePathProperty="true" ExcludeAssets="build" />
+    <PackageReference Include="CoreForms.Web" Version="8.0.0" />
+    <PackageReference Include="CoreForms.Web.ApplicationServices" Version="8.0.0" />
+    <PackageReference Include="CoreForms.Web.DynamicData" Version="8.0.0" />
+    <PackageReference Include="CoreForms.Web.Extensions" Version="8.0.0" />
+    <PackageReference Include="CoreForms.Web.Services" Version="8.0.0" />
+    <PackageReference Include="CoreForms.Web.Infrastructure" Version="8.0.0" />
+    <PackageReference Include="CoreForms.Web.Infrastructure.Roslyn" Version="8.0.0" />
+    <PackageReference Include="CoreForms.Web.Infrastructure.MachineConfig" Version="8.0.0" />
+    <PackageReference Include="CoreForms.Web.NetFrameworkBridge" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Net.Compilers.Toolset" Version="4.8.0" GeneratePathProperty="true" ExcludeAssets="build" />
 
     <PackageReference Include="Antlr" Version="3.5.0.2" />
     <PackageReference Include="AspNet.ScriptManager.bootstrap" Version="3.4.1" />
