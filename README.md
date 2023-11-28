@@ -8,6 +8,7 @@ Password: Pa$$word1
 
 # Setup
 Database directory, to be set in app.config for connection string "WingtipToys": "D:\Database"
+The default database engine is LocalDB (part of SQL Server Express 2019).
 
 # Tutorial
 
