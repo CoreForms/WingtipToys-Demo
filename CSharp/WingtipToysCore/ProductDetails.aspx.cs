@@ -28,6 +28,7 @@ namespace WingtipToys
       }
       else if (!String.IsNullOrEmpty(productName))
       {
+        productName = productName.Replace("%20", " ");
         query = query.Where(p =>
                   String.Compare(p.ProductName, productName) == 0);
       }
